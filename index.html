@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <title>KEVIN</title>
   </head>
@@ -38,42 +40,50 @@
           </div>
           <div class="proyectos">
           
-            <div>
+            <div >
               <h1 class="titulos">Proyectos</h1>
               <a href="https://proyectopago.herokuapp.com/">
-                <div class="card" style=" background-image: url('./img/kevjor.png');">
+                <div data-aos="fade-down" class="bloque">
+                <div  class="card" style=" background-image: url('./img/kevjor.png'); ">
                   <div class="texto">
                     <div class="texto2">
                       <h2>KEVJORG </h2>
                     </div>
                   </div>
                   </div>
+                  </div>
               </a>
-       <a href="https://horter.herokuapp.com/">
-        <div class="card" style=" background-image: url('./img/horter.png');">
+       <a href="https://horter.herokuapp.com/" >
+        <div data-aos="fade-down" class="bloque">
+        <div  class="card" style=" background-image: url('./img/horter.png');">
           <div class="texto">
             <div class="texto2">
               <h2>HORTER</h2>
             </div>
           </div>
           </div>
+          </div>
        </a>
 
-                <a href="https://foronuevok.herokuapp.com/">
-                  <div class="card" style=" background-image: url('./img/app.png');">
-                    <div class="texto">
-                      <div class="texto2">
-                        <h2>APP TAREAS</h2>
+                <a href="https://foronuevok.herokuapp.com/" >
+                  <div data-aos="fade-down" class="bloque">
+                    <div   class="card" style=" background-image: url('./img/app.png');">
+                      <div class="texto">
+                        <div class="texto2">
+                          <h2>APP TAREAS</h2>
+                        
+                        </div>
                       
                       </div>
-                    
-                    </div>
-                    
-                    </div>
+                      
+                      </div>
+                  </div>
+                
                 </a>
 
         
                 <a href="https://kevin-contreras.github.io/Login-front-end/">
+                  <div data-aos="fade-down" class="bloque">
                   <div class="card" style=" background-image: url('./img/login.png');">
                     <div class="texto">
                       <div class="texto2">
@@ -83,8 +93,10 @@
                     </div>
                     
                     </div>
+                    </div>
                 </a>
                 <a href="https://kevin-contreras.github.io/Destinos-Turisticos-Guatemala/">
+                  <div data-aos="fade-down" class="bloque">
                   <div class="card" style=" background-image: url('./img/destino.png');">
                     <div class="texto">
                       <div class="texto2">
@@ -92,10 +104,11 @@
                       </div>
                     
                     </div>
-                    
+                    </div>
                     </div>
                 </a>
                 <a href="https://kevin-contreras.github.io/fleept/">
+                  <div data-aos="fade-down" class="bloque">
                   <div class="card" style=" background-image: url('./img/hora.png');">
                     <div class="texto">
                       <div class="texto2">
@@ -104,16 +117,17 @@
                       </div>
                     
                     </div>
-                    
+                    </div>
                     </div>
                 </a>
                   <a href="https://kevin-contreras.github.io/computerinc/">
+                    <div data-aos="fade-down" class="bloque">
                     <div class="card" style=" background-image: url('./img/compu.png');">
                       <div class="texto">
                         <div class="texto2">
                           <h2>COMPUTER.INC </h2>
                         </div>
-                      
+                      </div>
                       </div>
                       
                       </div>
@@ -123,7 +137,31 @@
                
       </div>
         </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
 
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 15, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+        </script>
         
   </body>
 </html>

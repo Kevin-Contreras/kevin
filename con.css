@@ -13,7 +13,7 @@
         
           
    }
- 
+
 .titulo{
        margin-top:40% ;
        text-align: center;
@@ -24,6 +24,13 @@
        -ms-transition: all 2s ease-in-out;
        -o-transition: all 2s ease-in-out;
        transition: all 2s ease-in-out;
+       
+}
+.bloque{
+       margin:50px;
+       margin-top: 70px;
+       display: inline-block;
+       position: relative;
 }
 .principal:hover{
        scale: 1.5;
@@ -181,16 +188,18 @@
        position: relative;
        display: inline-block;
        transition: top 1s ease 0s;
-       margin:50px;
-       margin-top: 70px;
 
        
 
 
       }
-      
+    
 .texto{
-       
+       -webkit-transition: all 0.7s ease-in-out;
+       -moz-transition: all 0.7s ease-in-out;
+       -ms-transition: all 0.7s ease-in-out;
+       -o-transition: all 0.7s ease-in-out;
+       transition: all 0.7s ease-in-out;
        height: 100%;
        color: transparent;
        background: rgba(0, 0, 0, 0);
