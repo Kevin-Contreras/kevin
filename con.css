@@ -1,54 +1,42 @@
 
-img{
-    width: 500px;
-    
+   *{
+          margin: 0;
+   }
 
-}
-.n{
-    width: 100%;
-    margin: auto;
-   
-    margin-top: 5%;
-}
 
-   
-.n2{
-    width: 90%;
-    margin: auto;
+   .segundario{
+          width: 50%;
+          height: 938px;
+          display: inline-block;
+          float: left;
+         
+        
+          
+   }
  
-   padding-left: 50px;
-   padding-right: 50px;
-  
-    
-}
-.n2 h1{
-    text-align: center;
-
-}
-
-.n2 p{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-
-}
-.n3{
-    margin: auto;
-    text-align: center;
-   
-    width: 100%;
-}
-h1{
-    color:rgb(75, 75, 75);
-    margin-top: 20px;
-     margin-bottom: 8px;
-     font-family: Tiffany, sans-serif;
-     font-size: 5.6em;
-     line-height: 1em;
-     font-weight: 700;
-   }
-   .n4{
+.titulo{
+       margin-top:40% ;
        text-align: center;
+}
+.principal{
+       -webkit-transition: all 2s ease-in-out;
+       -moz-transition: all 2s ease-in-out;
+       -ms-transition: all 2s ease-in-out;
+       -o-transition: all 2s ease-in-out;
+       transition: all 2s ease-in-out;
+}
+.principal:hover{
+       scale: 1.5;
+
+}
+   .tercero{
+       overflow: hidden;
+       height: 938px;
+       width: 50%;
+       display: inline-block;
+
    }
+ 
    .custom-btn {
     width: 200px;
     height: 50px;
@@ -149,7 +137,29 @@ h1{
    .btn span:hover:after {
     width: 100%;
    }
-  
+
+.proyectos{
+       text-align: center;
+       margin-top: 50px;
+      
+}
+
+
+
+
+
+
+
+
+
+  h1{
+       font-family: 'Tiffany';
+       font-size: 60px;
+  }
+  h2{
+       font-family: 'Roboto', sans-serif;
+       font-size: 30px;
+  }
   
    @font-face {
     font-family: 'Tiffany';
@@ -158,68 +168,102 @@ h1{
     font-style: normal;
     font-display: auto;
   }
-  @media screen and (max-width: 610px) {
-    img{
-        width: 450px;
-        
-    }
-    .n4{
-        padding: 50px;
-    }
-    .n2{
-        padding: 20px;
-    }
-    
-  }
-  @media screen and (max-width: 500px) {
-    img{
-        width: 360px;
-        
-    }
-    h1{
-    font-size: 70px;
-    }
-    .n4{
-        padding: 50px;
-    }
-    .n2{
-        padding: 20px;
-    }
-    
-  }
-  @media screen and (max-width: 390px) {
-    img{
-        width: 300px;
-        
-    }
-    .n2{
-        padding: 20px;
-    }
-    .n4{
-        padding: 20px;
-    }
-    h1{
-        font-size: 60px;
-        }
-    
-  }
-  @media screen and (max-width: 320px) {
-    img{
-        width: 250px;
-        
-    }
-    .n2{
-        padding: 20px;
-    }
-    .n4{
-        padding: 20px;
-    }
-    h1{
-        font-size: 40px;
-        }
-        .btn{
-            width: 100px;
-          margin: 0;
-        }
-    
-  }
+  
+  /* From uiverse.io by @martinval9 */
+.card {
+       width: 350px;
+       height: 300px;
+       box-shadow: 4px 6px 14px #00000036;
+       border-radius: 3px;
+       color: #020202;
+       top: 0;
+       overflow: hidden;
+       position: relative;
+       display: inline-block;
+       transition: top 1s ease 0s;
+       margin:50px;
+       margin-top: 70px;
+
+       
+
+
+      }
+      
+.texto{
+       
+       height: 100%;
+       color: transparent;
+       background: rgba(0, 0, 0, 0);
+}
+
+.texto:hover{
+       background: rgba(0, 0, 0, 0.603);
+       color: #fff;
+       
+}
+.texto2 h2 {
+position: relative;
+top:130px;
+}
+
+      .card:hover {
+
+       top: -50px;
+      }
+
+
+     @media only screen and (max-width: 760px) {
+            .tercero{
+                   width: 0;
+                   height: 650px;
+            }
+            .segundario{
+                   width: 100%;
+                   height: 650px;
+            }
+            .sa{
+                   display: none;
+            }
+           
+     }
+           
+     @media only screen and (max-width: 460px) {
+       
+       .card{
+              width: 250px;
+       }   
+       h1{
+              font-size: 40px;
+       }
+       h2{
+              font-size: 20px;
+       }  
+       .tercero{
+              width: 0;
+              height: 350px;
+       }
+       .segundario{
+              width: 100%;
+              height: 350px;
+       } 
+}
+@media only screen and (max-width: 300px) {
+       .tercero{
+              width: 0;
+              height: 350px;
+       }
+       .segundario{
+              width: 100%;
+              height: 350px;
+       }
+       h1{
+              font-size: 30px;
+       }
+       h2{
+              font-size: 15px;
+       }
+       .card{
+              width: 150px;
+              height: 200px;
+       }      
+}
