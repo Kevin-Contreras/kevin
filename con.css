@@ -23,8 +23,9 @@
        margin: 0 auto;
        font-family: "Courier New";
        border-right: 0.15em solid #18bdec;
-       animation:  blink 1s steps(1) infinite, type 1s steps(38) 1s 1 normal both;
+       animation: blink .5s step-end infinite;
       
+       
   }
 
   
@@ -72,11 +73,15 @@
        transition: all 2s ease-in-out;
        
 }
+a{
+       display: inline-block;
+}
 .bloque{
        margin:50px;
        margin-top: 70px;
        display: inline-block;
        position: relative;
+       
 }
 .principal:hover{
        scale: 1.5;
@@ -296,6 +301,10 @@ top:130px;
               width: 100%;
               height: 350px;
        } 
+       .bloque{
+              margin:0px;
+              margin-top: 70px;
+       }
 }
 @media only screen and (max-width: 300px) {
        .tercero{
@@ -316,4 +325,8 @@ top:130px;
               width: 150px;
               height: 200px;
        }      
+       .bloque{
+              margin:0px;
+              margin-top: 70px;
+       }
 }
