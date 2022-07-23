@@ -12,6 +12,10 @@
           height: 970px;
           display: inline-block;
           float: left; 
+         
+          /*This part is important for centering*/
+         
+         
           
      
    }
@@ -24,19 +28,20 @@
        font-family: "Courier New";
        border-right: 0.15em solid #18bdec;
        animation: blink .5s step-end infinite;
-      
+
        
   }
 
-  
-  @keyframes type {
+     
+    
+     
+     @keyframes typing {
        from {
-         width: 0;
-       }
-       to {
-         width: 100%;
+         width: 0
        }
      }
+         
+    
      @keyframes blink {
        50% {
          border-color: transparent;
@@ -64,6 +69,10 @@
 .titulo{
        margin-top:40% ;
        text-align: center;
+      
+  
+ 
+
 }
 .principal{
        -webkit-transition: all 2s ease-in-out;
@@ -306,6 +315,7 @@ top:130px;
               margin-top: 70px;
        }
 }
+
 @media only screen and (max-width: 300px) {
        .tercero{
               width: 0;
