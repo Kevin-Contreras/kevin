@@ -1,6 +1,9 @@
 var nombre= document.getElementById("boton1");
 var nombre2= document.getElementById("boton2");
 var nombre3= document.getElementById("boton3");
+var nombre4= document.getElementById("boton4");
+var nombre5= document.getElementById("boton5");
+var nombre6= document.getElementById("boton6");
 
 
 
@@ -11,6 +14,15 @@ nombre2.addEventListener("click",function(event){
     displayFullName2();
 }) 
 nombre3.addEventListener("click",function(event){
+    displayFullName3();
+}) 
+nombre4.addEventListener("click",function(event){
+    displayFullName();
+}) 
+nombre5.addEventListener("click",function(event){
+    displayFullName2();
+}) 
+nombre6.addEventListener("click",function(event){
     displayFullName3();
 }) 
 function displayFullName() {

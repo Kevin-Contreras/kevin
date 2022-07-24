@@ -12,17 +12,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet"> 
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
   <title>KEVIN</title>
 
 </head>
 <body>
 
   <nav>
-    <ul>
+    <ul class="escritorio">
       <li><button id="boton1">Home</button></li>
       <li><button id="boton2">Proyects</button></li>
       <li><button id="boton3">Contact</button></li>
+    </ul>
+    <ul class="movil">
+      <li><button id="boton1"style=" float:left;" >Kevin</button></li>
+      <li style=" float:right;">
+        <div class="container"  onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div></li>
+      <div id="n">
+        <li><button id="boton4" style="display:block;">Home</button></li>
+        <li><button id="boton5" style="display:block;">Proyects</button></li>
+        <li><button id="boton6" style="display:block;">Contact</button></li>
+      </div>
+       
+      
+      
     </ul>
   </nav>
 
@@ -31,5 +50,24 @@
   </div>
   
 </body>
+<script>
+  var n = document.getElementById("n")
+
+
+  window.addEventListener("load",function(e){
+      n.style.display="none";
+    })
+  function myFunction(x) {
+    
+  if(  x.classList.toggle("change")==false){
+    n.style.display="none";
+  }else{
+    n.style.display="block";
+  }
+  
+
+}
+
+</script>
 <script src="index.js"></script>
 </html>

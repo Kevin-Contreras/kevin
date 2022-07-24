@@ -29,6 +29,68 @@ nav ul li{
 .todo{
 
 }
+.proyectos{
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+.card {
+    width: 350px;
+    height: 300px;
+    box-shadow: 4px 6px 14px #00000036;
+    border-radius: 3px;
+    color: #020202;
+    top: 0;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    transition: top 1s ease 0s;
+
+    
+
+
+   }
+.bloque{
+    margin:0px;
+    margin-top: 70px;
+}
+.texto{
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    height: 100%;
+    color: transparent;
+    background: rgba(0, 0, 0, 0);
+}
+
+.texto:hover{
+    background: rgba(0, 0, 0, 0.603);
+    color: #fff;
+    
+}
+a{
+    display: inline-block;
+}
+.bloque{
+    margin:60px;
+    margin-top: 70px;
+    display: inline-block;
+    position: relative;
+    
+}
+.texto2 h2 {
+position: relative;
+top:130px;
+}
+
+   .card:hover {
+
+    top: -50px;
+   }
+
 nav ul li button{
     border: none;
     background: transparent;
@@ -41,20 +103,12 @@ nav ul li button:hover{
     
 }
 
-.tercero{
-    
-        -webkit-transition: all 2s ease-in-out;
-        -moz-transition: all 2s ease-in-out;
-        -ms-transition: all 2s ease-in-out;
-        -o-transition: all 2s ease-in-out;
-        transition: all 2s ease-in-out;
-        
- 
-}
+
 
 .tercero img{
-    display: inline-block;
-   margin-left: 20%;
+margin-top: 50px;    
+
+
 }
 .segundario{
     
@@ -66,7 +120,11 @@ nav ul li button:hover{
 .titulo{
     margin-top:10% ;
     text-align: center;
-    padding: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left:40px ;
+
     font-family: 'Cormorant Garamond', serif;
 }
 .titulo p{
@@ -102,6 +160,7 @@ nav ul li button:hover{
 .tercero{
     width: 50%;
     display: inline-block;
+    text-align: right;
 
 
 }
@@ -109,18 +168,18 @@ nav ul li button:hover{
     margin: 50px;
 }
 .contenedor1{
-    width: 50%;
+    width: 60%;
     display: inline-block;
     margin-top:30px;
 }
 .contenedor1 img{
     width: 100%;
-    height: 350px;
+    height: 600px;
     display: inline-block;
     margin-top:30px;
 }
 .contenedor2{
-    height: 350px;
+    height: 600px;
     
     display: inline-block;
     width: 40%;
@@ -130,12 +189,16 @@ nav ul li button:hover{
 .contenedor2 h3{
     padding-left: 40px;
     padding-top: 40px;
+    font-family: 'Montserrat',sans-serif;
    
 }
 .contenedor2 p{
+    
     padding: 40px;
+    font-family: 'Montserrat',sans-serif;
    
 }
+
 .todos h1{
     text-align: center;
     color: rgb(46, 46, 45);
@@ -270,18 +333,167 @@ nav ul li button:hover{
 }
 .tituloss{
     margin-top:0% ;
-    padding: 100px;
     padding-top: 150px;
     padding-left: 100px;
 
 }
+.segundari{
+    text-align: center;
+}
 .tituloss h1{
+    
     font-family: 'EB Garamond', serif;
 
     font-family: 'Taviraj', serif;
 
 }
+
+.titulosss h1{
+font-family: 'EB Garamond', serif;
+
+    font-family: 'Taviraj', serif;
+}
 .textt{
     padding: 30px;
     text-align: center;
+}
+
+.movil{
+    display: none;
+
+    
+}
+#n{
+    width: 100%;
+    
+    
+}
+.movilImagen{
+    display: none;
+}
+#n li button{
+    margin: auto;
+}
+.container {
+    cursor: pointer;
+    float: right;
+  }
+  .bar1 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-top: -5px;
+    transition: 0.4s;
+  }
+   .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  .pro{
+    margin-left: 200px;margin-right: 200px; margin-top: 50px;
+    display: inline-block;
+  }
+
+  @media screen and (max-width: 850px) {
+    .tercero{
+        display: none;
+    }
+    .segundario{
+        width: 100%;
+    }
+    .titulo{
+        padding: 40px;
+    }
+    .movilImagen{
+        display: block;
+        text-align: center;
+       
+    }
+    .movilImagen img{
+       width: 200px;
+       
+    }
+  }
+  @media screen and (max-width: 1300px) {
+    .pro{
+        margin:20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .card{
+        width: 250px;
+ }   
+ .bloque{
+    margin:0;
+    margin-top:60px;}
+      
+}
+@media screen and (max-width: 350px) {
+    .card{
+        width: 200px;
+        height: 200px;
+ }  }
+@media screen and (max-width: 930px) {
+    .tituloContacto{
+        display: none;
+    }
+  
+    .tituloss{
+        padding-left: 0px;
+    }
+    .segundarioContactos{
+        width: 100%;
+    }
+    .segundarioContactos div p{
+        text-align: center;
+       
+    }
+    .segundarioContactos div h1{
+        text-align: center;
+        font-size: 25px;
+    }
+    .divimg{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 450px) {
+.movil{
+    display:inline;
+    
+}
+@media screen and (max-width: 450px) {
+.movil{
+    display:inline;
+    
+}
+}
+nav{
+    background: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+nav ul li button{
+
+    color: rgb(0, 0, 0);
+}
+.escritorio{
+    display: none;
+}
+
 }
