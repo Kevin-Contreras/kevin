@@ -21,12 +21,15 @@
 <body>
 
   <nav >
+   
     <ul class="escritorio">
+      <div class="ojos"><div class="vista"><div class="pupilas"></div></div></div>
       <li><button id="boton1">Home</button></li>
       <li><button id="boton2">Proyects</button></li>
       <li><button id="boton3">Contact</button></li>
     </ul>
     <ul class="movil" >
+
       <li><button id="boton1"style=" float:left;" >KEVIN DEV</button></li>
       <li style=" float:right;">
         <div class="container"  onclick="myFunction(this)">
@@ -60,6 +63,18 @@
   var bar1 = document.querySelector(".bar1")
   var bar2 = document.querySelector(".bar2")
   var bar3 = document.querySelector(".bar3")
+  var movimento = document.getElementsByClassName("pupilas")
+  document.onmousemove = function(event){
+    var x = event.clientX*100/window.innerWidth+"%";
+    var y = event.clientY*100/window.innerWidth+"%";
+    for (let i = 0; i < 2; i++) {
+      movimento[i].style.left=x;
+      movimento[i].style.top=y;
+      movimento[i].style.transform = "translate(-"+x+","+y+")";
+      
+    }
+
+  }
 
 
   window.addEventListener("load",function(e){
@@ -89,6 +104,7 @@ n4.addEventListener("click",function(e){
   
 
 }
+
 
 </script>
 <script src="index.js"></script>
