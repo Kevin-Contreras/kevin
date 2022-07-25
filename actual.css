@@ -482,10 +482,7 @@ font-family: 'EB Garamond', serif;
     display:inline;
     
 }
-.ojos{
-    display: none;
-}
-}
+
 @media screen and (max-width: 450px) {
 .movil{
     display:inline;
