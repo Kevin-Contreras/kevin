@@ -452,6 +452,9 @@ font-family: 'EB Garamond', serif;
         height: 200px;
  }  }
 @media screen and (max-width: 930px) {
+    #boton1{
+        margin-left: 0px;
+    }
     .tituloContacto{
         display: none;
     }
@@ -478,6 +481,10 @@ font-family: 'EB Garamond', serif;
 .movil{
     display:inline;
     
+}
+.ojos{
+    display: none;
+}
 }
 @media screen and (max-width: 450px) {
 .movil{
