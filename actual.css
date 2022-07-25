@@ -485,7 +485,6 @@ font-family: 'EB Garamond', serif;
 .ojos{
     display: none;
 }
-}
 @media screen and (max-width: 450px) {
 .movil{
     display:inline;
