@@ -27,7 +27,7 @@
       <li><button id="boton3">Contact</button></li>
     </ul>
     <ul class="movil">
-      <li><button id="boton1"style=" float:left;" >Kevin</button></li>
+      <li><button id="boton1"style=" float:left;" >KEVIN DEV</button></li>
       <li style=" float:right;">
         <div class="container"  onclick="myFunction(this)">
         <div class="bar1"></div>
@@ -35,9 +35,9 @@
         <div class="bar3"></div>
       </div></li>
       <div id="n">
-        <li><button id="boton4" style="display:block;">Home</button></li>
-        <li><button id="boton5" style="display:block;">Proyects</button></li>
-        <li><button id="boton6" style="display:block;">Contact</button></li>
+        <li><button id="boton4" class="animate__animated animate__fadeInLeft" style="display:block;">Home</button></li>
+        <li><button id="boton5" class="animate__animated animate__fadeInLeft" style="display:block;">Proyects</button></li>
+        <li><button id="boton6"class="animate__animated animate__fadeInLeft" style="display:block;">Contact</button></li>
       </div>
        
       
@@ -52,15 +52,37 @@
 </body>
 <script>
   var n = document.getElementById("n")
+  var todo = document.getElementById("todo")
+  var n2 = document.getElementById("boton4")
+  var n3 = document.getElementById("boton5")
+  var n4 = document.getElementById("boton6")
+  var container = document.querySelector(".container")
+  var bar1 = document.querySelector(".bar1")
+  var bar2 = document.querySelector(".bar2")
+  var bar3 = document.querySelector(".bar3")
 
 
   window.addEventListener("load",function(e){
       n.style.display="none";
     })
-  function myFunction(x) {
-    
-  if(  x.classList.toggle("change")==false){
+    n2.addEventListener("click",function(e){
+  myFunction();
+
+})
+n3.addEventListener("click",function(e){
+  myFunction();
+
+})
+n4.addEventListener("click",function(e){
+  myFunction();
+
+})
+  function myFunction() {
+
+  if(  container.classList.toggle("change")==false){
     n.style.display="none";
+    
+
   }else{
     n.style.display="block";
   }

@@ -2,8 +2,8 @@
     margin: 0;
 }
 nav{
+padding: 50px;  
 
-padding: 50px;    
 }
 nav ul {
    padding: 0;
@@ -392,7 +392,8 @@ font-family: 'EB Garamond', serif;
     margin: 6px 0;
     transition: 0.4s;
   }
-  
+
+
   .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
@@ -484,7 +485,7 @@ font-family: 'EB Garamond', serif;
 }
 }
 nav{
-    background: rgb(238, 238, 238);
+    background: rgb(241, 241, 241);
     color: rgb(0, 0, 0);
     padding: 20px;
 }
