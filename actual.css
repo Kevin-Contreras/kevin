@@ -463,7 +463,7 @@ font-family: 'EB Garamond', serif;
         padding-left: 0px;
     }
     .segundarioContactos{
-        width: 100%;
+        width: 100% ;
     }
     .segundarioContactos div p{
         text-align: center;
@@ -482,15 +482,19 @@ font-family: 'EB Garamond', serif;
     display:inline;
     
 }
+
 .ojos{
     display: none;
 }
+}
+
 @media screen and (max-width: 450px) {
 .movil{
     display:inline;
     
 }
-}
+
+
 nav{
     background: rgb(241, 241, 241);
     color: rgb(0, 0, 0);
@@ -508,10 +512,10 @@ nav ul li button{
 
 
 
-
 #boton1{
-    margin-left: 40px;
+    margin-left: 50px;
 }
+
 
 .ojos{
     position: absolute;
