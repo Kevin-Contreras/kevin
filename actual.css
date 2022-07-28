@@ -412,6 +412,10 @@ font-family: 'EB Garamond', serif;
   }
 
   @media screen and (max-width: 850px) {
+      #boton1{
+    margin-left: 10px;
+}
+
     .tercero{
         display: none;
     }
@@ -432,12 +436,20 @@ font-family: 'EB Garamond', serif;
     }
   }
   @media screen and (max-width: 1300px) {
+      #boton1{
+    margin-left: 10px;
+}
+
     .pro{
         margin:20px;
     }
 }
 
 @media screen and (max-width: 560px) {
+    #boton1{
+    margin-left: 0px;
+}
+
     .card{
         width: 250px;
  }   
@@ -447,6 +459,10 @@ font-family: 'EB Garamond', serif;
       
 }
 @media screen and (max-width: 350px) {
+    #boton1{
+    margin-left: 0px;
+}
+
     .card{
         width: 200px;
         height: 200px;
@@ -493,6 +509,10 @@ font-family: 'EB Garamond', serif;
 }
 
 @media screen and (max-width: 450px) {
+    #boton1{
+    margin-left: 0px;
+}
+
 .movil{
     display:inline;
     
