@@ -467,9 +467,8 @@ font-family: 'EB Garamond', serif;
         width: 200px;
         height: 200px;
  }
- .par{
-    font-size: 27px;
- }  
+
+  
 }
 @media screen and (max-width: 930px) {
     #boton1{
