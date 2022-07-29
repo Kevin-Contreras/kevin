@@ -54,6 +54,7 @@ function displayFullName2() {
     request.open("GET", "./proyects.html");
     // Defining event listener for readystatechange event
     request.onreadystatechange = function() {
+        
         // Check if the request is compete and was successful
         if(this.readyState === 4 && this.status === 200) {
             // Inserting the response from server into an HTML element

@@ -346,28 +346,20 @@ height: 425px;
     font-family: 'EB Garamond', serif;
 
     font-family: 'Taviraj', serif;
-
 }
-
 .titulosss h1{
 font-family: 'EB Garamond', serif;
-
     font-family: 'Taviraj', serif;
 }
 .textt{
     padding: 30px;
     text-align: center;
 }
-
 .movil{
     display: none;
-
-    
 }
 #n{
     width: 100%;
-    
-    
 }
 .movilImagen{
     display: none;
@@ -462,13 +454,10 @@ font-family: 'EB Garamond', serif;
     #boton1{
     margin-left: 0px;
 }
-
     .card{
         width: 200px;
         height: 200px;
  }
-
-  
 }
 @media screen and (max-width: 930px) {
     #boton1{
@@ -498,26 +487,20 @@ font-family: 'EB Garamond', serif;
 }
 @media screen and (max-width: 450px) {
 .movil{
-    display:inline;
-    
+    display:inline;   
 }
-
 .ojos{
     display: none;
 }
 }
-
 @media screen and (max-width: 450px) {
     #boton1{
     margin-left: 0px;
 }
-
 .movil{
     display:inline;
     
 }
-
-
 nav{
     background: rgb(241, 241, 241);
     color: rgb(0, 0, 0);
@@ -532,30 +515,21 @@ nav ul li button{
 }
 
 }
-
-
-
 #boton1{
     margin-left: 50px;
 }
-
-
 .ojos{
     position: absolute;
-    width: 100px;
-
-
-    
+    width: 100px;  
 }
 .vista{
 
-    width: 60px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background: rgb(201, 201, 201);
-    border-radius: 55% ;
+    border-radius: 100%;
     position: relative;
     overflow: hidden;
-
 }
 .pupilas{
     width: 20px;
@@ -566,5 +540,5 @@ nav ul li button{
     left: 50%;
     transform: translate(50%,-50%);
     border-radius: 50%;
-    border: solid rgb(122, 74, 1);
+    border:4px solid rgb(122, 75, 4);
 }
