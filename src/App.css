@@ -328,7 +328,7 @@ nav {
 @media screen and (max-width: 769px){
 
   .section.skills {
-    margin-top: -9rem;
+    margin-top: -7.5rem;
     padding-bottom: 1rem;
   }
   .avatar{
