@@ -3,7 +3,6 @@ import logo from '../assets/icono.png'
 import 'bulma/css/bulma.min.css';
 import '../App.css'
 import compu from '../assets/compu.svg'
-import logi from "../assets/avatar.png"
 import { Link,NavLink,Outlet } from "react-router-dom";
 
 function Contact() {
