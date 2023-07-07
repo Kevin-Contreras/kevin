@@ -6,7 +6,7 @@ import Home from './components/home'
 import About from './components/yo'
 import Work from './components/works'
 import BotonContacto from './components/boton'
-import Principal from './principal2'
+import Principal from  './principal2'
 import {  Routes as Pepe, Route,BrowserRouter } from "react-router-dom";
 import Contact from './components/contact'
 
