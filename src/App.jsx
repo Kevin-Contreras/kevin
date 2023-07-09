@@ -15,8 +15,8 @@ function App() {
   return (
        <Pepe>
   <Route path={"/"} element={<Principal />} />
-
   <Route path={'/contact'} element={<Contact/>}/>
+  <Route path={'*'} element={<Principal/>}/>
 
   
   </Pepe>
