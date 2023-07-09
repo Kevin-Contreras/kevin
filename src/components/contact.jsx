@@ -38,7 +38,7 @@ function Contact() {
       </section>
       <section class="is-white">
         <div class="container">
-          <form accept-charset="UTF-8" action="https://usebasin.com/f/cfe585747a2d" method="POST">
+          <form accept-charset="UTF-8" action="https://usebasin.com/f/cfe585747a2d" method="POST" target="_self">
             <div class="columns is-centered">
               <div class="column is-half">
                 <div class="field">
