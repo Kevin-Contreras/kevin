@@ -29,7 +29,7 @@ function About() {
                 <h1 class="title is-size-4 is-spaced">Backend development</h1>
                 <p>As a backend developer, I value simple content structure, clean design patterns, and thoughtful interactions.</p>
                 <p class="list-title has-text-primary has-text-weight-normal">Languages I speak:</p>
-                <p>Nodejs Python Java C++ SQL  </p>
+                <p>Nodejs, Python, Java, C++, SQL  </p>
                 <p class="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
                 <ul>
                   <li>Mongodb</li>
@@ -44,7 +44,7 @@ function About() {
                 <h1 class="title is-size-4 is-spaced">Frontend Developer</h1>
                 <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
                 <p class="list-title has-text-primary has-text-weight-normal">Languages I speak:</p>
-                <p>HTML, CSS, Javascript, Reactjs ,Git</p>
+                <p>HTML, CSS, Javascript, Reactjs, Git</p>
                 <p class="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
                 <ul>
                   <li>Atom</li>
