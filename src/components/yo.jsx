@@ -48,6 +48,7 @@ function About() {
                 <p class="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
                 <ul>
                   <li>Atom</li>
+                  <li>Redux</li>
                   <li>Bitbucket</li>
                   <li>Bootstrap</li>
                   <li>Bulma</li>
