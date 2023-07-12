@@ -15,7 +15,7 @@ $(function(){
    
         <div className='contenedor'>
      
-        <h1 className='titulo'>Full Stack Developement</h1>
+        <h1 className='titulo'>Full Stack Developer</h1>
         <h2 className='titulo2'>I design and code beautifully simple things, and I love what I do.</h2>
         <div className='avatar'>
             <div className='imagenP' alt="" ></div>
