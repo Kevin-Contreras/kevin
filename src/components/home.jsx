@@ -5,12 +5,16 @@ import '../App.css'
 import compu from '../assets/compu.svg'
 
 function Home() {
-
+$(function(){
+  $(".animacion span").draggable();
+})
 
   return (
     
     <div>
+   
         <div className='contenedor'>
+     
         <h1 className='titulo'>Full Stack Developement</h1>
         <h2 className='titulo2'>I design and code beautifully simple things, and I love what I do.</h2>
         <div className='avatar'>
