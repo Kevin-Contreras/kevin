@@ -5,6 +5,8 @@ import plump from "../assets/plump.jpeg"
 import task from "../assets/task.jpeg"
 import movie from "../assets/movie.jpeg"
 import manga from "../assets/manga.jpeg"
+import drawing from "../assets/drawing.png"
+
 
 import '../App.css'
 import compu from '../assets/compu.svg'
@@ -53,7 +55,14 @@ function Work() {
               </figure>
             </div>
          
-           
+            <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+              <figure class="image is-3by2"><img class="project-thumb" src={drawing}/>
+                <figcaption>
+                  <h1 class="title is-size-5 is-size-4-widescreen">DRAWING.io is an application where you can create your own drawings, add friends.</h1><a class="button is-primary is-outlined is-rounded" href="https://drawing2.vercel.app/" target="_blank"><span>Visit Website</span><span class="icon"><svg class="svg-inline--fa fa-angle-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"></path></svg><i class="fas fa-angle-right"></i> </span></a>
+                </figcaption>
+                <div class="overlay"></div>
+              </figure>
+            </div>
           </div>
         </div>
        
