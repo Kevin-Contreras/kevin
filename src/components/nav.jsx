@@ -26,10 +26,11 @@ function Nav() {
         nav()
     }
   return (
-    <div>
+    <div >
     <header style={{boxShadow:" 0 1px 1px #E6ECF8",height:"120.5px",display:'flex',alignItems:"center",padding: "1.2rem 0"}}>
         <div class='container header__container'>
             <div class="header-logo"  >
+                
               <NavLink to={"/"}>    <h1 className='logo'>K_DEV </h1></NavLink>
              
             </div>

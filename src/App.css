@@ -8,7 +8,24 @@
   color: #6E07F3;
   text-decoration: none;
 }
-
+@keyframes show {
+  from{
+    opacity: 0;
+    scale: 40%;
+  }
+  to{
+    opacity: 1;
+    scale: 100%;
+  }
+}
+.animation{
+   view-timeline-name:--animacion;
+   view-timeline-axis:block ;
+   animation-timeline: --animacion;
+   animation-name:show ;
+   animation-range: entry 5% cover 30%;
+   animation-fill-mode: both;
+}
 .texto{
   font-family: "eurostile", sans-serif;
   line-height:1.1125;
@@ -24,12 +41,14 @@
   font-size: 3rem !important;
   color: #141c3a;
   margin-bottom: 30px;
+  text-align: center;
   
 }
 .subtitulo{
   font-family: "europa", sans-serif;
     line-height: 1.5;
     font-size: 1.25rem;
+    text-align: center;
     color: #ffffff;
 }
 .imagenP{
@@ -91,7 +110,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 .contenedor{
   text-align: center;
   padding: 1.2rem 0;
-  margin: 9%;
+  margin-bottom: 9%;
 }
 .textoContenedor{
   padding: 6rem 18rem;
