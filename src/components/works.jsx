@@ -7,7 +7,7 @@ import movie from "../assets/movie.jpeg"
 import manga from "../assets/manga.jpeg"
 import drawing from "../assets/drawing.png"
 import triangulo from "../assets/triangulo.png"
-import vertRun from "../assets/vertRun.png"
+import vertRun from "../assets/vertrun.png"
 
 import '../App.css'
 import compu from '../assets/compu.svg'
