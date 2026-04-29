@@ -4,6 +4,9 @@
   "homepage": "https://kevin-contreras.github.io/kevin",
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
