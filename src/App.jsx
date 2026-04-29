@@ -9,7 +9,7 @@ import BotonContacto from './components/boton'
 import Principal from  './principal2'
 import {  Routes as Pepe, Route,BrowserRouter } from "react-router-dom";
 import Contact from './components/contact'
-
+import { Analytics } from "@vercel/analytics/next"
 function App() {
 
   return (
@@ -18,7 +18,7 @@ function App() {
   <Route path={'/contact'} element={<Contact/>}/>
   <Route path={'*'} element={<Principal/>}/>
 
-  
+  <Analytics/>
   </Pepe>
 
 
